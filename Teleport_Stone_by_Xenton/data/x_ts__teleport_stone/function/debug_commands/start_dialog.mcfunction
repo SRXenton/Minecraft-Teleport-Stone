@@ -1,0 +1,1 @@
+function x_ts__teleport_stone:x_ts__code/windows/dialog1 with storage x_ts:teleport_stone data
