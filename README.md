@@ -30,15 +30,19 @@ No knowlage needed over commands. All needed commands in this description
 To set a Teleportstone:<br>
 - /function x_ts__teleport_stone:set_teleport_stone<br>
 
-For Debugging:
-Remove all Teleport Stones in render distance and reset all scoreboards and data storages.
-- /function x_ts__teleport_stone:debug_commands/reset_button
+For Debugging:<br>
+Remove all Teleport Stones in render distance and reset all scoreboards and data storages.<br>
+- /function x_ts__teleport_stone:debug_commands/reset_button<br>
 
 
 
 
 # Changelog:
-Alpha 0.2:
-- New: automatic ID for every teleport stone in data storage
-- Change: Data storage structure for teleport position
-- Change: Dialog window update all buttons, every time between call and show the window
+Alpha 0.2.1:<br>
+- New: Write Spawn coordinates for teleport for every teleport stone in data storage<br>
+- Change: Remove bug with number of teleport stone, when stone is doesn't set<br>
+
+Alpha 0.2:<br>
+- New: automatic ID for every teleport stone in data storage<br>
+- Change: Data storage structure for teleport position<br>
+- Change: Dialog window update all buttons, every time between call and show the window<br>
