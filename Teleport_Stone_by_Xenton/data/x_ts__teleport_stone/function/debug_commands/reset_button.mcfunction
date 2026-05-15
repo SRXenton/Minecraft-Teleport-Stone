@@ -1,5 +1,17 @@
+# Structure
+# 
+# data.teleport_points:[
+#     {
+#         "id":"1",
+#         "action":{label:"1"},
+#         "teleport_coords":{"x":1,"y":1,"z":1}
+#     },
+# ]
+
+
 data remove storage x_ts:teleport_stone data
 data merge storage x_ts:teleport_stone {data:{actions:[]}}
+data merge storage x_ts:teleport_stone {data:{teleport_points:[]}}
 
 scoreboard objectives remove x_teleport_stone.counter
 scoreboard objectives add x_teleport_stone.counter dummy

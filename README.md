@@ -34,3 +34,11 @@ For Debugging:
 Remove all Teleport Stones in render distance and reset all scoreboards and data storages.
 - /function x_ts__teleport_stone:debug_commands/reset_button
 
+
+
+
+# Changelog:
+Alpha 0.2:
+- New: automatic ID for every teleport stone in data storage
+- Change: Data storage structure for teleport position
+- Change: Dialog window update all buttons, every time between call and show the window
