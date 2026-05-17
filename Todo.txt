@@ -17,3 +17,6 @@ open    0003    Set New Teleport-Stone: Textoutput in chat
             Target: Formatted chat output like: - Teleport-Stone is set
                                                 - To far away to set Teleport-Stone
 
+open    0004    Exit Button: Dialog window
+            Actual: Only exit with "esc"
+            Target: Exitbutton in the bottom of the window
