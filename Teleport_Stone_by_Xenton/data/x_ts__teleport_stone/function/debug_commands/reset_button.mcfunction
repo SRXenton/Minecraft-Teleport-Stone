@@ -13,6 +13,11 @@ data remove storage x_ts:teleport_stone data
 data merge storage x_ts:teleport_stone {data:{actions:[]}}
 data merge storage x_ts:teleport_stone {data:{teleport_points:[]}}
 
+
+scoreboard objectives remove x_teleport_stone.target
+scoreboard objectives add x_teleport_stone.target trigger
+
+
 scoreboard objectives remove x_teleport_stone.counter
 scoreboard objectives add x_teleport_stone.counter dummy
 scoreboard players set _counter1 x_teleport_stone.counter 0

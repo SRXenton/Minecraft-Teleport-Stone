@@ -38,6 +38,11 @@ Remove all Teleport Stones in render distance and reset all scoreboards and data
 
 
 # Changelog:
+Alpha 0.3<br>
+- New: Teleportation between Teleport-Stones
+- - All set Teleportstones set with /function x_ts__teleport_stone:set_teleport_stone, now in the dialog list
+- New: Todolist for the beta phase: Todo.txt in basefolder
+
 Alpha 0.2.1:<br>
 - New: Write Spawn coordinates for teleport for every teleport stone in data storage<br>
 - Change: Remove bug with number of teleport stone, when stone is doesn't set<br>

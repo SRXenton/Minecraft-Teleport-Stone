@@ -1,4 +1,5 @@
 # Set teleport stone - preparing
+
 execute store result storage x_ts:teleport_stone data.stone.id int 1 run time query gametime
 execute store result storage x_ts:teleport_stone data.stone.name int 1 run scoreboard players get _counter1 x_teleport_stone.counter
 

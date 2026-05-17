@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "x_ts__teleport_stone:x_ts__code/misc/dirc"
+        "x_ts__teleport_stone:x_ts__code/misc/dirc",
+        "x_ts__teleport_stone:x_ts__code/teleport/tsft"
     ]
 }
