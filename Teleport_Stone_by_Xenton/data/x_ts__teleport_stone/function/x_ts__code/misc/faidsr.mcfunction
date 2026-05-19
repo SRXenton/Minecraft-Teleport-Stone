@@ -1,4 +1,5 @@
 ### Find action in data storage repeat
+### Call in faidss.mcfunction
 
 ## Write id from storage in scoreboard
 execute store result score @s x_teleport_stone.temp_faids run data get storage x_ts:teleport_stone data.temp.values[0].id 1
