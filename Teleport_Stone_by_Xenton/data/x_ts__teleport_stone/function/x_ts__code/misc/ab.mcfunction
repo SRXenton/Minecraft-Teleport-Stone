@@ -1,4 +1,5 @@
-# add button to dialog window
+## Add button to dialog window
+## Called in: pr.mcfunction
 
 $data modify storage x_ts:teleport_stone data.teleport_points append value \
     {\
