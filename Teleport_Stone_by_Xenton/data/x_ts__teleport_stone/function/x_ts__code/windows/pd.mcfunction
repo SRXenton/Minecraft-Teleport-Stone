@@ -8,11 +8,11 @@ data merge storage x_ts:teleport_stone {data:{actions:[]}}
 ## Prepare scoreboard
 scoreboard players set _actions x_teleport_stone.counter 0
 
-
 ## Adminmode
-# data modify storage x_ts:teleport_stone data.actions_temp set from storage x_ts:teleport_stone data.teleport_points
-# function x_ts__teleport_stone:x_ts__code/windows/pdr2
-# scoreboard players set @s x_teleport_stone.admin_pages 1
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:stick",components:{"minecraft:custom_data":{tag:"x_ts__teleportstone.item.edit"}}}},scores={x_teleport_stone.admin=1}] \
+    run function x_ts__teleport_stone:x_ts__code/misc/am
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:stick",components:{"minecraft:custom_data":{tag:"x_ts__teleportstone.item.edit"}}}},scores={x_teleport_stone.admin=1}] \
+    run return 1
 
 
 
