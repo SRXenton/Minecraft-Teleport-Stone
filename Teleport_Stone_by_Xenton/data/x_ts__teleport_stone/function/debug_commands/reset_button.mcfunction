@@ -17,6 +17,17 @@ data merge storage x_ts:teleport_stone {data:{teleport_points:[]}}
 scoreboard objectives remove x_teleport_stone.target
 scoreboard objectives add x_teleport_stone.target trigger
 
+scoreboard objectives remove x_teleport_stone.admin
+scoreboard objectives add x_teleport_stone.admin dummy
+scoreboard players set @s x_teleport_stone.admin 1
+
+scoreboard objectives remove x_teleport_stone.admin_pages
+scoreboard objectives add x_teleport_stone.admin_pages trigger
+scoreboard players set @s x_teleport_stone.admin_pages 0
+
+scoreboard objectives remove x_teleport_stone.admin_pages_id
+scoreboard objectives add x_teleport_stone.admin_pages_id trigger
+scoreboard players set @s x_teleport_stone.admin_pages_id 0
 
 scoreboard objectives remove x_teleport_stone.counter
 scoreboard objectives add x_teleport_stone.counter dummy
