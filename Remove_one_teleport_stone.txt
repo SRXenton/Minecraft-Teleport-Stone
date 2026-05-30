@@ -1,0 +1,13 @@
+Changes:
+- Add interface for admin
+-- In the development state, it is not possible to open it from games automatic, it must be change in programmcode
+-- File: windows/pd.mcfunction
+
+- Add in interface button for: Edit name, but without function
+
+- Add in interface button for: Delete Teleport Stone
+-- Add security question, when click this button
+
+- Remove Object and Interaction, when click delete button in interface
+
+- Add more comments in functions
