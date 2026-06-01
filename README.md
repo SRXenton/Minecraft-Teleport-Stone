@@ -1,4 +1,4 @@
-# Minecraft-Teleport-Stone in Alpha 0.1
+# Minecraft-Teleport-Stone
 Datapack for Minecraft Java.<br>
 - V 1.21.11
 - V 26.1.x
