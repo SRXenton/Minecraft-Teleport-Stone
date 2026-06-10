@@ -1,5 +1,5 @@
 ### Summon Interaction over heat @s
-### Called in: set_teleport_stone.mcfunction
+### Called in: diih2.mcfunction
 ###
 ### Note: rcs = Right click detection
 

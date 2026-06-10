@@ -17,3 +17,6 @@ give @s minecraft:stick[minecraft:item_model="minecraft:guster_banner_pattern", 
 
 # Edit teleport stone
 give @s minecraft:stick[minecraft:item_model="minecraft:writable_book", custom_name="Edit Teleportstone",custom_data={tag:"x_ts__teleportstone.item.edit"}] 1
+
+# Set teleport point
+give @s minecraft:stick[minecraft:item_model="minecraft:flower_banner_pattern", custom_name="Set Teleportpoint",custom_data={tag:"x_ts__teleportstone.item.point"}] 1
