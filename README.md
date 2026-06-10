@@ -1,4 +1,4 @@
-# Minecraft-Teleport-Stone in Alpha 0.1
+# Minecraft-Teleport-Stone
 Datapack for Minecraft Java.<br>
 - V 1.21.11
 - V 26.1.x
@@ -48,6 +48,10 @@ Until Alpha 0.3:<br>
 
 
 # Changelog:
+Alpha 0.5<br>
+- Change:
+- - Check admin before summon interaction for rightclick detection to set teleport stone
+
 Alpha 0.4<br>
 - New: Admin dialog, when right click teleport stone<br>
 - - 2 Buttons: Set Name and Delete<br>
