@@ -48,6 +48,10 @@ Until Alpha 0.3:<br>
 
 
 # Changelog:
+Alpha 0.5<br>
+- Change:
+- - Check admin before summon interaction for rightclick detection to set teleport stone
+
 Alpha 0.4<br>
 - New: Admin dialog, when right click teleport stone<br>
 - - 2 Buttons: Set Name and Delete<br>
