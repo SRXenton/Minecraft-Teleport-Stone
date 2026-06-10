@@ -1,0 +1,4 @@
+New: 
+    Add new item to set the position from the point how spawnt the point after teleport
+
+Change:
