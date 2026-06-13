@@ -3,8 +3,6 @@
 ###
 ### Note: rcs = Right click detection
 
-# tellraw @a "lll111"
-
 ## Summon interactions as rightclick detection
 execute unless entity @e[type=minecraft:interaction,distance=..2,tag=x_ts.interaction.rcd.set_teleport_point] \
         positioned ~ ~1.3 ~ \
