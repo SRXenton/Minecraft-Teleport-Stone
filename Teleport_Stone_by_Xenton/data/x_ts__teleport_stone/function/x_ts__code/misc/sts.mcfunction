@@ -1,5 +1,5 @@
 ### Set teleport stone - preparing
-### Called in: set_teleport_stone.mcfunction
+### Called in: diih2.mcfunction
 
 ## Write first values for teleport stone in storage
 ## Use gametime as id for the teleport stone
