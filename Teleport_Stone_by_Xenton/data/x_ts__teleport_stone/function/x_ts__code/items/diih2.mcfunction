@@ -1,5 +1,7 @@
-### Detect item in hand, for new teleport stone
-### Called in: diih.mcfunction
+#### Detect item in hand, for new teleport stone
+#### Called in: diih.mcfunction
+
+### Place Teleport Stone
 
 ## Summon / kill interaction for detection right click for the stick for edit
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",components:{"minecraft:custom_data":{tag:"x_ts__teleportstone.item.place"}}}}] \
@@ -18,6 +20,8 @@ execute as @e[type=minecraft:interaction, tag=x_ts.interaction.rcd.set_stone] ru
 execute as @e[type=minecraft:interaction, tag=x_ts.interaction.rcd.set_stone] run data remove entity @s interaction
 
 
+### Set target for teleport
+
 ## Summon / kill interaction for detection right click for the stick for set teleport point
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",components:{"minecraft:custom_data":{tag:"x_ts__teleportstone.item.point"}}}}] \
     run function x_ts__teleport_stone:x_ts__code/items/siohasfets
@@ -29,7 +33,10 @@ execute as @s[nbt=!{SelectedItem:{id:"minecraft:stick",components:{"minecraft:cu
 
 
 ## Right click detection
-execute as @e[type=minecraft:interaction, tag=x_ts.interaction.rcd.set_teleport_point] on target at @s run function x_ts__teleport_stone:x_ts__code/misc/stp with storage x_ts:teleport_stone data.temp
+execute as @e[type=minecraft:interaction, tag=x_ts.interaction.rcd.set_teleport_point] on target at @s \
+    run function x_ts__teleport_stone:x_ts__code/misc/stp with storage x_ts:teleport_stone data.temp
 
 execute as @e[type=minecraft:interaction, tag=x_ts.interaction.rcd.set_teleport_point] run data remove entity @s attack
 execute as @e[type=minecraft:interaction, tag=x_ts.interaction.rcd.set_teleport_point] run data remove entity @s interaction
+
+data remove storage x_ts:teleport_stone data.temp

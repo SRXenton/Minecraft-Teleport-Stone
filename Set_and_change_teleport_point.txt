@@ -1,5 +1,5 @@
 New: 
     Add new item to set the position from the point how spawnt the point after teleport
     Show with the new item in the weapon mainhand the position from the teleport point in the near from teleport stone
-    
-Change:
+    On rightclick with new item "Set Teleportpoint", in the near, max distance 10 Blocks, from teleport stone, will set the new point
+
