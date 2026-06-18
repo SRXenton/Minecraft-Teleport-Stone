@@ -1,5 +1,5 @@
 ### Remove teleport stone
-### Call in:
+### Call in: spfapd.mcfunction
 
 ## Chat output
 $tellraw @a "Deleted: $(name) - $(id)"
