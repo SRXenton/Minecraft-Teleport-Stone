@@ -48,6 +48,13 @@ Until Alpha 0.3:<br>
 
 
 # Changelog:
+Alpha 0.6<br>
+- New:
+- - Item for to change the target teleport point from teleport stone
+- - Function from this item:
+- - - Show position from the teleport point, when item in weapon main hand an in max distance 10 Blocks
+- - - On rightclick, the aktual position will be overtaken for the teleport posiition
+
 Alpha 0.5<br>
 - Change:
 - - Check admin before summon interaction for rightclick detection to set teleport stone
