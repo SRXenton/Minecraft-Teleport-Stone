@@ -24,3 +24,11 @@ open    0004    Exit Button: Dialog window
 open    0005    Delete Stone: Textoutput in chat
             Actual: Deleted: <name> - <id>
             Target: Formatted chat output like: Teleport Stone deleted - <name>
+
+open    0006    Set Teleport Point: stp.mcfunction, Textoutput in chat
+            Actual: Simple chat output: - Gesetzt!!
+            Target: Formatted chat output like: - New target for Teleport-point is set
+
+done    0007    Comments missing:
+            - fidss.mcfunction
+            - sncfts.mcfunction
