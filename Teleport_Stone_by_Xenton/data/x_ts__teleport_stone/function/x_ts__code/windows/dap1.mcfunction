@@ -24,7 +24,11 @@ $dialog show @s {\
     },\
     "actions": [\
         {\
-            "label": "Set name (Coming Soon)"\
+            "label": "Set name",\
+            "action":{\
+                type:"minecraft:run_command",\
+                command:"trigger x_teleport_stone.admin_pages set 10"\
+            }\
         },\
         {\
             "label": "Delete Teleport Stone",\
