@@ -32,8 +32,11 @@ Since Alpha 0.4<br>
 - - - With Item: "Place Teleportstone", you can with a right click on a block, place the teleport stone over the highest block
 - - - - When the block is to far away, you get the message in chat "Zu weit weg", and no teleport stone will be set
 - - - With Item: "Edit Teleportstone", you can with a right click on a teleport stone, the open the admin dialog
-- - - - Button: Set name, have actual no function
+- - - - Button: Set name, here you can change the name from the stone
 - - - - Button: Delete - Delete this teleport stone, and remove it from the teleporatation list
+- - - With Item: Set Teleportpoint, you can see and set in the near from a Teleport stone the target from teleport
+- - - - Hold in Mainhand, you can see a cloud on target from teleportpoint, when you in the distance to 10 Block around from Teleport Stone
+- - - - Rightclick: You can set an new target point, when you in the distance to 10 Block around from Teleport Stone
 
 
 Until Alpha 0.3:<br>
@@ -48,6 +51,12 @@ Until Alpha 0.3:<br>
 
 
 # Changelog:
+Alpha 0.7<br>
+- New:
+- - Set Name for Teleport Stone
+- - Admin Window, Button activate: Set Name
+- - Page for Set Name
+
 Alpha 0.6<br>
 - New:
 - - Item for to change the target teleport point from teleport stone
