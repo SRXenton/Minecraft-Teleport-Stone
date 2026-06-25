@@ -1,5 +1,0 @@
-Change:
-    Summon interaction for rightclick detection for set teleport stone
-    Old: When player has item in main hand, then check on right click is player admin
-    New: Check is player Admin, then when player has item in main hand summon interaction
-    
