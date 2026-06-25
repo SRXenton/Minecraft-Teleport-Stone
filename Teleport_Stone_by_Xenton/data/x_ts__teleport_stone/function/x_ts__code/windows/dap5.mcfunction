@@ -1,4 +1,4 @@
-### Dialog Admin Page 1
+### Dialog Admin Page 5 - Delete Stone
 ### Call in: spfapd.mcfunction
 
 ## Enable trigger in  scoreboard

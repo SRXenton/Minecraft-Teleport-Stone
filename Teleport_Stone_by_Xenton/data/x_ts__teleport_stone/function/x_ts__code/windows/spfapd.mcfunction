@@ -18,6 +18,11 @@ data modify storage x_ts:teleport_stone data.temp.dialog.name set from storage x
 execute if score @s x_teleport_stone.admin_pages matches 1 run function x_ts__teleport_stone:x_ts__code/windows/dap1 with storage x_ts:teleport_stone data.temp.dialog
 
 
+## Set Name Page
+execute if score @s x_teleport_stone.admin_pages matches 10 run function x_ts__teleport_stone:x_ts__code/windows/dap10 with storage x_ts:teleport_stone data.temp.dialog
+#execute if score @s x_teleport_stone.admin_pages matches 11 run function x_ts__teleport_stone:x_ts__code/misc/rmts with storage x_ts:teleport_stone data.temp.dialog
+
+
 ## Delete Page
 execute if score @s x_teleport_stone.admin_pages matches 5 run function x_ts__teleport_stone:x_ts__code/windows/dap5 with storage x_ts:teleport_stone data.temp.dialog
 execute if score @s x_teleport_stone.admin_pages matches 6 run function x_ts__teleport_stone:x_ts__code/misc/rmts with storage x_ts:teleport_stone data.temp.dialog
