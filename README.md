@@ -3,14 +3,14 @@ Datapack for Minecraft Java.<br>
 - V 1.21.11
 - V 26.1.x
 
-Place with command a teleport stone in the world.<br>
+Place with an item a teleport stone in the world.<br>
 With a right click, you can teleport between the stones.<br>
 No knowlage needed over commands. All needed commands in this description
 
 
 # !!! Attantion !!!
 
-! This datapack is in alpha status, not all functions available!<br>
+! This datapack is in alpha status<br>
 
 
 # Installation:
