@@ -2,7 +2,8 @@
 ### Called in: Manuel
 
 ## For the first time
-execute unless score _counter1 x_teleport_stone.counter matches -10.. run function x_ts__teleport_stone:x_ts__code/misc/ia
+scoreboard objectives add x_teleport_stone.counter dummy
+execute unless score _isActive x_teleport_stone.counter matches 1 run function x_ts__teleport_stone:x_ts__code/misc/ia
 
 
 ## Set the player, how call this function as admin
