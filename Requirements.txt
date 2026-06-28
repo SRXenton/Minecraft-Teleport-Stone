@@ -1,0 +1,8 @@
+## Requierments
+
+- Chat output:
+    General:
+        Text: green, example: "You are teleported to "
+        Target: gold, "<Stone Name>"
+
+        

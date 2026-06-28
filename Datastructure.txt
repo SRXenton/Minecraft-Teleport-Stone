@@ -1,0 +1,38 @@
+## Data Storage structure
+
+x_ts:teleport_stone {
+    data:{
+        teleport_points:[
+            {
+                teleport_coords:{
+                    x: double
+                    y: double
+                    z: double
+                },
+                action:{
+                    action:{
+                        type: string
+                        command: string
+                    },
+                    label: string
+                },
+                id: int
+            }
+        ]
+    }
+}
+Using in: phtt.mcfunction
+
+
+
+x_ts:teleport_stone {
+    data:{
+        tpc{
+            x: double
+            y: double
+            z: double
+        }
+    }
+}
+create and remove in tpp.mcfunction
+Using in: tpp.mcfunction, tp.mcfunction

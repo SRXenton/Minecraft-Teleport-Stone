@@ -51,6 +51,17 @@ Until Alpha 0.3:<br>
 
 
 # Changelog:
+Beta 0.1<br>
+- Change:
+- - Teleport Dialog, Number of columns from 2 to 1
+- - Chatoutput:
+- - - From: "ported"
+- - - To: "You are teleported to -Stone-Name-"
+
+Alpha 0.7.1<br>
+- Bug Remove:
+- - In give_items and set admin
+
 Alpha 0.7<br>
 - New:
 - - Set Name for Teleport Stone
