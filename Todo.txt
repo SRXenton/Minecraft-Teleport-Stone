@@ -3,7 +3,7 @@
 Status  Number  Titel
             Description
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-open    0001    Teleport-Stone, Dialog, Actionbuttons:
+done    0001    Teleport-Stone, Dialog, Actionbuttons:
             Actual: 2 columns 
             Target: 1 column
 

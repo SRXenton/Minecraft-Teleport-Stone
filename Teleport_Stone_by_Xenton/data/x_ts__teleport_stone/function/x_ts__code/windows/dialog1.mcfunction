@@ -11,6 +11,7 @@ $dialog show @s {\
     after_action:"close",\
     can_close_with_escape:true,\
     body:[],\
+    columns:1,\
     pause:false,\
     actions:$(actions)\
 }
