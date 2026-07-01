@@ -7,7 +7,7 @@ done    0001    Teleport-Stone, Dialog, Actionbuttons:
             Actual: 2 columns 
             Target: 1 column
 
-open    0002    Teleportation: Textoutput in chat
+done    0002    Teleportation: Textoutput in chat
             Actual: Simple chat output: teleportiert
             Target: Formatted chat output like: You are teleported to <target>
 
