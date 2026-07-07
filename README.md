@@ -64,6 +64,9 @@ Beta 0.1<br>
 - - - Delete Teleport Stone:
 - - - - From: "Deleted: -Stone-name- - -Stone-id-"
 - - - - To: "You have deleted the Teleport Stone: -Stone-Name-"
+- - - Set new spawnpoint from Teleport Stone:
+- - - - From: "Gesetzt"
+- - - - To: "You have set a new spawn from Teleport Stone: -Stone-Name-"
 
 Alpha 0.7.1<br>
 - Bug Remove:
