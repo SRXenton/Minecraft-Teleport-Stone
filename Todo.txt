@@ -11,7 +11,7 @@ done    0002    Teleportation: Textoutput in chat
             Actual: Simple chat output: teleportiert
             Target: Formatted chat output like: You are teleported to <target>
 
-open    0003    Set New Teleport-Stone: Textoutput in chat
+done    0003    Set New Teleport-Stone: Textoutput in chat
             Actual: Simple chat output: - Gesetzt
                                         - Zu weite Weg
             Target: Formatted chat output like: - Teleport-Stone is set

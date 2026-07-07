@@ -55,8 +55,12 @@ Beta 0.1<br>
 - Change:
 - - Teleport Dialog, Number of columns from 2 to 1
 - - Chatoutput:
-- - - From: "ported"
-- - - To: "You are teleported to -Stone-Name-"
+- - - Ported:
+- - - - From: "ported"
+- - - - To: "You are teleported to -Stone-Name-"
+- - - Set Teleport Stone:
+- - - - From: "Gesetzt"
+- - - - To: "You have set a teleport stone, Name: -Stone-Name-"
 
 Alpha 0.7.1<br>
 - Bug Remove:
