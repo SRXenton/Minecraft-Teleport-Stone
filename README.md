@@ -51,6 +51,27 @@ Until Alpha 0.3:<br>
 
 
 # Changelog:
+Beta 0.1<br>
+- Change:
+- - Teleport Dialog, Number of columns from 2 to 1
+- - Chatoutput:
+- - - Ported:
+- - - - From: "ported"
+- - - - To: "You are teleported to -Stone-Name-"
+- - - Set Teleport Stone:
+- - - - From: "Gesetzt"
+- - - - To: "You have set a teleport stone, Name: -Stone-Name-"
+- - - Delete Teleport Stone:
+- - - - From: "Deleted: -Stone-name- - -Stone-id-"
+- - - - To: "You have deleted the Teleport Stone: -Stone-Name-"
+- - - Set new spawnpoint from Teleport Stone:
+- - - - From: "Gesetzt"
+- - - - To: "You have set a new spawn from Teleport Stone: -Stone-Name-"
+
+Alpha 0.7.1<br>
+- Bug Remove:
+- - In give_items and set admin
+
 Alpha 0.7<br>
 - New:
 - - Set Name for Teleport Stone
