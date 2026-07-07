@@ -68,7 +68,7 @@ open    0012    Textoutput in Chat in the Minecraft versions are different
             - Actual different at:
                 You have set a new spawn from Teleport Stone
                 You have deleted the Teleport Stone                
-                
+                You are teleported to
             - Target:
                 Same text face in chat
 
