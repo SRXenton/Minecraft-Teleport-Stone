@@ -37,4 +37,10 @@ open    0008    Not Numbers as name, when set new Stone
             - Nameset, like "bra", "kac", "le", etc
             - Use 3 or more from set to create a name
 
-
+open    0009    Dialog window: Delete Teleport Stone confirmation:
+            - Actual:
+                Title: name - id - Delete
+                Body "Remove teleport stone"
+            - Target:
+                Title: "Remove teleport stone"
+                Body: "You are sure to delete the teleport stone: <Stone-name>
