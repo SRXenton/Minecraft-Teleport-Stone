@@ -13,7 +13,7 @@ function x_ts__teleport_stone:x_ts__code/misc/ab with storage x_ts:teleport_ston
 function x_ts__teleport_stone:x_ts__code/object/stone with storage x_ts:teleport_stone data.stone
 
 ## Chat output
-tellraw @s "Gesetzt"
+tellraw @a [{text:"You have set a teleport stone, Name: ", color:"green"}, {storage:"x_ts:teleport_stone", nbt:"data.stone.name", color:"gold"}]
 
 ## Set counter
 scoreboard players set _counter x_teleport_stone.set_tp_stone -1
