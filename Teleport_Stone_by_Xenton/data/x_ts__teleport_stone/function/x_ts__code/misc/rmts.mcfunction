@@ -2,7 +2,7 @@
 ### Call in: spfapd.mcfunction
 
 ## Chat output
-$tellraw @a "Deleted: $(name) - $(id)"
+tellraw @a [{text:"You have deleted the Teleport Stone: ", color:"green"}, {storage:"x_ts:teleport_stone", nbt:"data.temp.dialog.name", color:"gold"}]
 
 ## Call: Remove from storage teleport_points start
 function x_ts__teleport_stone:x_ts__code/misc/rfstps
