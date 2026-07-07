@@ -21,7 +21,7 @@ open    0004    Exit Button: Dialog window
             Actual: Only exit with "esc"
             Target: Exitbutton in the bottom of the window
 
-open    0005    Delete Stone: Textoutput in chat
+done    0005    Delete Stone: Textoutput in chat
             Actual: Deleted: <name> - <id>
             Target: Formatted chat output like: Teleport Stone deleted - <name>
 
