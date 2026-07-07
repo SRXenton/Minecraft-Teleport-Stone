@@ -25,7 +25,7 @@ done    0005    Delete Stone: Textoutput in chat
             Actual: Deleted: <name> - <id>
             Target: Formatted chat output like: Teleport Stone deleted - <name>
 
-open    0006    Set Teleport Point: stp.mcfunction, Textoutput in chat
+done    0006    Set Teleport Point: stp.mcfunction, Textoutput in chat
             Actual: Simple chat output: - Gesetzt!!
             Target: Formatted chat output like: - New target for Teleport-point is set
 
