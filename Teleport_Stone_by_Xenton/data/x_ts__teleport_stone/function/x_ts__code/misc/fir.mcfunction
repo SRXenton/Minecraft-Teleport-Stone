@@ -6,3 +6,4 @@ $execute if entity @e[tag=x_ts.interaction.id.$(id),distance=..10] run function 
 
 ## Write in data storage the id from the teleport stone
 $execute if entity @e[tag=x_ts.interaction.id.$(id),distance=..10] run data modify storage x_ts:teleport_stone data.temp.changeid set value $(id)
+$execute if entity @e[tag=x_ts.interaction.id.$(id),distance=..10] run data modify storage x_ts:teleport_stone data.temp.changeName set from storage x_ts:teleport_stone data.temp.ds[0].action.label

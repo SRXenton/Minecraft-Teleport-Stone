@@ -25,7 +25,7 @@ execute if score _temp1 x_teleport_stone.temp = _temp2 x_teleport_stone.temp run
 scoreboard objectives remove x_teleport_stone.temp
 
 ## Chat output
-tellraw @s "Gesetzt!!"
+tellraw @a [{text:"You have set a new spawn from Teleport Stone:  ", color:"green"}, {storage:"x_ts:teleport_stone", nbt:"data.temp.changeName", color:"gold"}]
 
 ## Set counter
 scoreboard players set _counter x_teleport_stone.set_tp_stone -1
