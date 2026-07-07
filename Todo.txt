@@ -39,8 +39,38 @@ open    0008    Not Numbers as name, when set new Stone
 
 open    0009    Dialog window: Delete Teleport Stone confirmation:
             - Actual:
-                Title: name - id - Delete
+                Title: "<name> - <id> - Delete"
                 Body "Remove teleport stone"
             - Target:
                 Title: "Remove teleport stone"
-                Body: "You are sure to delete the teleport stone: <Stone-name>
+                Body: "You are sure to delete the teleport stone: <Stone-name>"
+
+open    0010    Dialog window: Edit main Page
+            - Actual:
+                Title: "<name> - <id>"
+                Body "<Only Buttons>"
+            - Target:
+                Title: "Adminpage"
+                Body: "You are edit the Teleport Stone: <name>" and <Buttons>"
+
+open    0011    Dialog window: Edit Name Page
+            - Actual:
+                Title: "<name> - <id> - Edit Name"
+                Body "<Only Inputfield with label>"
+            - Target:
+                Title: "Edit Name"
+                Body: "You are edit the name from Teleport Stone: <name>" and <Inputfield with label>
+
+open    0012    Textoutput in Chat in the Minecraft versions are different
+            - Examples
+                V 1.21.11:  You have set a new spawn from Teleport Stone: 0
+                V 26.1:     You have set a new spawn from Teleport Stone: "0"
+            - Actual different at:
+                You have set a new spawn from Teleport Stone
+                You have deleted the Teleport Stone                
+                You are teleported to
+            - Target:
+                Same text face in chat
+
+
+
