@@ -4,5 +4,5 @@
     General:
         Text: green, example: "You are teleported to "
         Target: gold, "<Stone Name>"
-
+        Example: tellraw @a [{text:"You are teleported to ", color:"green"}, {storage:"x_ts:teleport_stone", nbt:"data.target_temp[0].action.label", color:"gold"}]
         
