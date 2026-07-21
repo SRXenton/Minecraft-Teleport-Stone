@@ -72,5 +72,8 @@ open    0012    Textoutput in Chat in the Minecraft versions are different
             - Target:
                 Same text face in chat
 
+open    0013    Settingsoption to surpress chatoutput for trigger / send_command_feedback
+            - Actual
+                No Option available
 
 
