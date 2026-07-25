@@ -76,7 +76,7 @@ feature 0013    Settingsoption to surpress chatoutput for trigger / send_command
             - Actual
                 No Option available
 
-open    0014    Textoutput place new target point
+done    0014    Textoutput place new target point
             - Actual
                 Give out: ID and coordinates
             - Target:
