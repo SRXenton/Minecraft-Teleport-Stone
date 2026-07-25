@@ -2,7 +2,7 @@
 ### Called in: fidss.mcfunction
 
 ## Text output
-$tellraw @a "$(stone)"
+#$tellraw @a "$(stone)"
 
 ## Modify data storage
 data remove storage x_ts:teleport_stone data.stone.id
