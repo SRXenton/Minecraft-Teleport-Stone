@@ -1,6 +1,6 @@
 ### Dialog Admin Page 1
 ### Call in: spfapd.mcfunction
-
+#$(name) - $(id)
 ## Enable trigger in scoreboard
 scoreboard players enable @s x_teleport_stone.admin_pages
 
@@ -8,8 +8,8 @@ scoreboard players enable @s x_teleport_stone.admin_pages
 ## Show dialog
 $dialog show @s {\
     "type": "minecraft:multi_action",\
-    "title": "$(name) - $(id)",\
-    "body": [],\
+    "title": "Adminpage",\
+    "body": [{type:"minecraft:plain_message",contents:{text:"You are edit the Teleport Stone: $(name)"}}],\
     "inputs": [],\
     "can_close_with_escape": true,\
     "pause": false,\
