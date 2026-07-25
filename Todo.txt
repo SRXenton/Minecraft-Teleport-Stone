@@ -1,4 +1,4 @@
-## Todolist for the beta phase
+## Todolist
 
 Status  Number  Titel
             Description
@@ -81,4 +81,6 @@ done    0014    Textoutput place new target point
                 Give out: ID and coordinates
             - Target:
                 Without: ID and coordinates
+
+open    0015    Change Target point is direct after teleport not possible
 
