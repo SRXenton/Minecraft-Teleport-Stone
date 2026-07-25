@@ -53,7 +53,7 @@ done    0010    Dialog window: Edit main Page
                 Title: "Adminpage"
                 Body: "You are edit the Teleport Stone: <name>" and <Buttons>
 
-open    0011    Dialog window: Edit Name Page
+done    0011    Dialog window: Edit Name Page
             - Actual:
                 Title: "<name> - <id> - Edit Name"
                 Body "<Only Inputfield with label>"
