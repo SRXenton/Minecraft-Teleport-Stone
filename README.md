@@ -58,6 +58,9 @@ Beta 0.2<br>
 - - - Edit Name
 - - - Edit Main Page / Adminpage
 
+- Remove
+- - Textoutput in chat: ID and coordinates, when change the target point
+
 Beta 0.1<br>
 - Change:
 - - Teleport Dialog, Number of columns from 2 to 1
