@@ -1,5 +1,6 @@
 ### Dialog Admin Page 5 - Delete Stone
-### Call in: spfapd.mcfunction
+### Call in: windows/spfapd.mcfunction
+### Possible macros: $(name), $(id)
 
 ## Enable trigger in  scoreboard
 scoreboard players enable @s x_teleport_stone.admin_pages
@@ -7,8 +8,10 @@ scoreboard players enable @s x_teleport_stone.admin_pages
 ## Show dialog
 $dialog show @s {\
     "type": "minecraft:multi_action",\
-    "title": "$(name) - $(id) - Delete",\
-    "body": [{type:"minecraft:plain_message",contents:{text:"Remove Teleport Stone ?"}}],\
+    "title": "Remove Teleport-Stone",\
+    "body": [\
+        {type:"minecraft:plain_message",contents:{text:"You are sure to delete the Teleport-Stone $(name)?"}}\
+    ],\
     "inputs": [],\
     "can_close_with_escape": true,\
     "pause": false,\

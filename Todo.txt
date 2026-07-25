@@ -1,4 +1,4 @@
-## Todolist for the beta phase
+## Todolist
 
 Status  Number  Titel
             Description
@@ -33,11 +33,11 @@ done    0007    Comments missing:
             - fidss.mcfunction
             - sncfts.mcfunction
 
-open    0008    Not Numbers as name, when set new Stone
+feature 0008    Not Numbers as name, when set new Stone     --> Feature
             - Nameset, like "bra", "kac", "le", etc
             - Use 3 or more from set to create a name
 
-open    0009    Dialog window: Delete Teleport Stone confirmation:
+done    0009    Dialog window: Delete Teleport Stone confirmation:
             - Actual:
                 Title: "<name> - <id> - Delete"
                 Body "Remove teleport stone"
@@ -45,15 +45,15 @@ open    0009    Dialog window: Delete Teleport Stone confirmation:
                 Title: "Remove teleport stone"
                 Body: "You are sure to delete the teleport stone: <Stone-name>"
 
-open    0010    Dialog window: Edit main Page
+done    0010    Dialog window: Edit main Page
             - Actual:
                 Title: "<name> - <id>"
                 Body "<Only Buttons>"
             - Target:
                 Title: "Adminpage"
-                Body: "You are edit the Teleport Stone: <name>" and <Buttons>"
+                Body: "You are edit the Teleport Stone: <name>" and <Buttons>
 
-open    0011    Dialog window: Edit Name Page
+done    0011    Dialog window: Edit Name Page
             - Actual:
                 Title: "<name> - <id> - Edit Name"
                 Body "<Only Inputfield with label>"
@@ -72,5 +72,15 @@ open    0012    Textoutput in Chat in the Minecraft versions are different
             - Target:
                 Same text face in chat
 
+feature 0013    Settingsoption to surpress chatoutput for trigger / send_command_feedback
+            - Actual
+                No Option available
 
+done    0014    Textoutput place new target point
+            - Actual
+                Give out: ID and coordinates
+            - Target:
+                Without: ID and coordinates
+
+open    0015    Change Target point is direct after teleport not possible
 
