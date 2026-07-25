@@ -56,6 +56,7 @@ Beta 0.2<br>
 - - Dialog Text in:
 - - - Delete Teleport Stone
 - - - Edit Name
+- - - Edit Main Page / Adminpage
 
 Beta 0.1<br>
 - Change:
