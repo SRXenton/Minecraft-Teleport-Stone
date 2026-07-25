@@ -33,7 +33,7 @@ done    0007    Comments missing:
             - fidss.mcfunction
             - sncfts.mcfunction
 
-open    0008    Not Numbers as name, when set new Stone
+feature 0008    Not Numbers as name, when set new Stone     --> Feature
             - Nameset, like "bra", "kac", "le", etc
             - Use 3 or more from set to create a name
 
