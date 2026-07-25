@@ -72,8 +72,13 @@ open    0012    Textoutput in Chat in the Minecraft versions are different
             - Target:
                 Same text face in chat
 
-open    0013    Settingsoption to surpress chatoutput for trigger / send_command_feedback
+feature 0013    Settingsoption to surpress chatoutput for trigger / send_command_feedback
             - Actual
                 No Option available
 
+open    0014    Textoutput place new target point
+            - Actual
+                Give out: ID and coordinates
+            - Target:
+                Without: ID and coordinates
 
