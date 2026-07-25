@@ -45,13 +45,13 @@ done    0009    Dialog window: Delete Teleport Stone confirmation:
                 Title: "Remove teleport stone"
                 Body: "You are sure to delete the teleport stone: <Stone-name>"
 
-open    0010    Dialog window: Edit main Page
+done    0010    Dialog window: Edit main Page
             - Actual:
                 Title: "<name> - <id>"
                 Body "<Only Buttons>"
             - Target:
                 Title: "Adminpage"
-                Body: "You are edit the Teleport Stone: <name>" and <Buttons>"
+                Body: "You are edit the Teleport Stone: <name>" and <Buttons>
 
 open    0011    Dialog window: Edit Name Page
             - Actual:
