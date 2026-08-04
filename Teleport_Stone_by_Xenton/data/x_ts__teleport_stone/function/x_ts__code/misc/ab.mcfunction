@@ -2,7 +2,7 @@
 ### Called in: pr.mcfunction
 
 ## Show dialog
-$data modify storage x_ts:teleport_stone data.teleport_points append value \
+$execute store success score _tt counter.test run data modify storage x_ts:teleport_stone data.teleport_points append value \
     {\
         "id":$(id),\
         "action":{\

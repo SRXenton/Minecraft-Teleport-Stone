@@ -6,4 +6,4 @@ data modify storage x_ts:teleport_stone data.actions append from storage x_ts:te
 data remove storage x_ts:teleport_stone data.actions_temp[0]
 
 ## Check is an object in action_temp, and call this function
-execute if data storage x_ts:teleport_stone data.actions_temp[0] run function x_ts__teleport_stone:x_ts__code/windows/pdr1
+execute if data storage x_ts:teleport_stone data.actions_temp[0] run function x_ts__teleport_stone:x_ts__code/xw/pdr1

@@ -20,9 +20,9 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:stick",components:{"minecr
 # Copy data from data.teleport_points to data.actions_temp -> Normal user
 data modify storage x_ts:teleport_stone data.actions_temp set from storage x_ts:teleport_stone data.teleport_points
 # Preparing dialog window
-function x_ts__teleport_stone:x_ts__code/windows/pdr1
+function x_ts__teleport_stone:x_ts__code/xw/pdr1
 # Call dialog windows with data from storage
-function x_ts__teleport_stone:x_ts__code/windows/dialog1 with storage x_ts:teleport_stone data
+function x_ts__teleport_stone:x_ts__code/xw/dialog1 with storage x_ts:teleport_stone data
 
 ## Remove no more needes data storages
 data remove storage x_ts:teleport_stone data.actions_temp

@@ -15,4 +15,4 @@ scoreboard players set @s x_teleport_stone.admin_pages_id 0
 data remove storage x_ts:teleport_stone data.actions_temp[0]
 
 ## Call this function, when entries in storage
-execute if data storage x_ts:teleport_stone data.actions_temp[0] run function x_ts__teleport_stone:x_ts__code/windows/pdr2
+execute if data storage x_ts:teleport_stone data.actions_temp[0] run function x_ts__teleport_stone:x_ts__code/xw/pdr2

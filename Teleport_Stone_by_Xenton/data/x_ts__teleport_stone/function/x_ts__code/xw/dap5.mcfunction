@@ -1,5 +1,5 @@
 ### Dialog Admin Page 5 - Delete Stone
-### Call in: windows/spfapd.mcfunction
+### Call in: xw/spfapd.mcfunction
 ### Possible macros: $(name), $(id)
 
 ## Enable trigger in  scoreboard
