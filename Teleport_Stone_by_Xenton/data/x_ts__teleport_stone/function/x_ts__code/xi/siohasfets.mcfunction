@@ -14,4 +14,4 @@ execute if entity @e[type=minecraft:interaction,distance=..2,tag=x_ts.interactio
         run teleport @e[type=minecraft:interaction,distance=..2,tag=x_ts.interaction.rcd.set_teleport_point] ~ ~ ~
 
 ## Call function: find interaction start
-execute as @e[tag=x_ts.interaction.all, distance=..10] run function x_ts__teleport_stone:x_ts__code/misc/fis
+execute as @e[tag=x_ts.interaction.all, distance=..10] run function x_ts__teleport_stone:x_ts__code/xm/fis

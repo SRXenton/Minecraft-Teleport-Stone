@@ -10,7 +10,7 @@ scoreboard players set _actions x_teleport_stone.counter 0
 
 ## Adminmode
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:stick",components:{"minecraft:custom_data":{tag:"x_ts__teleportstone.item.edit"}}}},scores={x_teleport_stone.admin=1}] \
-    run function x_ts__teleport_stone:x_ts__code/misc/am
+    run function x_ts__teleport_stone:x_ts__code/xm/am
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:stick",components:{"minecraft:custom_data":{tag:"x_ts__teleportstone.item.edit"}}}},scores={x_teleport_stone.admin=1}] \
     run return 1
 

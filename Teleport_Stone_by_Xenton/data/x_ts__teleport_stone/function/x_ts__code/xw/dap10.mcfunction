@@ -27,7 +27,7 @@ $dialog show @s {\
             "label": "Save",\
             "action":{\
                 type:"minecraft:dynamic/run_command",\
-                template:"function x_ts__teleport_stone:x_ts__code/misc/snn {name:'\u0024(newName)', id:$(id)}"\
+                template:"function x_ts__teleport_stone:x_ts__code/xm/snn {name:'\u0024(newName)', id:$(id)}"\
             }\
         },\
         {\

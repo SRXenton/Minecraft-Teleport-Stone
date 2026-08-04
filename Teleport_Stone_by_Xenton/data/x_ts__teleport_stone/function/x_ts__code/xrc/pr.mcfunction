@@ -7,7 +7,7 @@ execute store result storage x_ts:teleport_stone data.stone.y double 1 run data 
 execute store result storage x_ts:teleport_stone data.stone.z double 1 run data get entity @s Pos[2]
 
 ## Call: Add button to dialog window
-function x_ts__teleport_stone:x_ts__code/misc/ab with storage x_ts:teleport_stone data.stone
+function x_ts__teleport_stone:x_ts__code/xm/ab with storage x_ts:teleport_stone data.stone
 
 ## Call: Set Stone
 function x_ts__teleport_stone:x_ts__code/xo/stone with storage x_ts:teleport_stone data.stone

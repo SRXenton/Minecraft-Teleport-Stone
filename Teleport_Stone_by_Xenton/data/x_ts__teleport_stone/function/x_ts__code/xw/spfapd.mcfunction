@@ -8,7 +8,7 @@
 execute store result storage x_ts:teleport_stone data.temp.id int 1 run scoreboard players get @s x_teleport_stone.admin_pages_id
 
 ## Find action in data storage
-function x_ts__teleport_stone:x_ts__code/misc/faidss
+function x_ts__teleport_stone:x_ts__code/xm/faidss
 
 ## Build temporary storage for dialog
 data modify storage x_ts:teleport_stone data.temp.dialog.id set from storage x_ts:teleport_stone data.temp.admin.id
@@ -20,12 +20,11 @@ execute if score @s x_teleport_stone.admin_pages matches 1 run function x_ts__te
 
 ## Set Name Page
 execute if score @s x_teleport_stone.admin_pages matches 10 run function x_ts__teleport_stone:x_ts__code/xw/dap10 with storage x_ts:teleport_stone data.temp.dialog
-#execute if score @s x_teleport_stone.admin_pages matches 11 run function x_ts__teleport_stone:x_ts__code/misc/rmts with storage x_ts:teleport_stone data.temp.dialog
 
 
 ## Delete Page
 execute if score @s x_teleport_stone.admin_pages matches 5 run function x_ts__teleport_stone:x_ts__code/xw/dap5 with storage x_ts:teleport_stone data.temp.dialog
-execute if score @s x_teleport_stone.admin_pages matches 6 run function x_ts__teleport_stone:x_ts__code/misc/rmts with storage x_ts:teleport_stone data.temp.dialog
+execute if score @s x_teleport_stone.admin_pages matches 6 run function x_ts__teleport_stone:x_ts__code/xm/rmts with storage x_ts:teleport_stone data.temp.dialog
 
 
 

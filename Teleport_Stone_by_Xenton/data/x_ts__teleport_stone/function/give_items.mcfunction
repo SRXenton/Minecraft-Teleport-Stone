@@ -3,7 +3,7 @@
 
 ## For the first time
 scoreboard objectives add x_teleport_stone.counter dummy
-execute unless score _isActive x_teleport_stone.counter matches 1 run function x_ts__teleport_stone:x_ts__code/misc/ia
+execute unless score _isActive x_teleport_stone.counter matches 1 run function x_ts__teleport_stone:x_ts__code/xm/ia
 
 
 ## Set the player, how call this function as admin
