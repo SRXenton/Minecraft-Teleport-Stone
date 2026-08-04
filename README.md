@@ -51,6 +51,9 @@ Until Alpha 0.3:<br>
 
 
 # Changelog:
+Beta 0.x<br>
+- Refactoring: Folder structure and files
+
 Beta 0.2<br>
 - Change
 - - Dialog Text in:
