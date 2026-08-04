@@ -10,7 +10,7 @@ execute store result storage x_ts:teleport_stone data.stone.z double 1 run data 
 function x_ts__teleport_stone:x_ts__code/misc/ab with storage x_ts:teleport_stone data.stone
 
 ## Call: Set Stone
-function x_ts__teleport_stone:x_ts__code/object/stone with storage x_ts:teleport_stone data.stone
+function x_ts__teleport_stone:x_ts__code/xo/stone with storage x_ts:teleport_stone data.stone
 
 ## Chat output
 tellraw @a [{text:"You have set a teleport stone, Name: ", color:"green"}, {storage:"x_ts:teleport_stone", nbt:"data.stone.name", color:"gold"}]
