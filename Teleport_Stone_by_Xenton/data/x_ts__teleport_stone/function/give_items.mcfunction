@@ -1,5 +1,5 @@
 ### Give player configitems and set admin
-### Called in: Manuel
+### Called in: Manual
 
 ## For the first time
 scoreboard objectives add x_teleport_stone.counter dummy
