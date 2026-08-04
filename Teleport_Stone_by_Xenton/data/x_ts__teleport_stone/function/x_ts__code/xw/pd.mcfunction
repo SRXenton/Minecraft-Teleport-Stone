@@ -1,5 +1,5 @@
 ### Prepare dialog
-### Called in: dirc.mcfunction
+### Called in: xm/dirc.mcfunction
 
 ## Prepare datastorage
 data merge storage x_ts:teleport_stone {data:{actions:[]}}
@@ -22,7 +22,7 @@ data modify storage x_ts:teleport_stone data.actions_temp set from storage x_ts:
 # Preparing dialog window
 function x_ts__teleport_stone:x_ts__code/xw/pdr1
 # Call dialog windows with data from storage
-function x_ts__teleport_stone:x_ts__code/xw/dialog1 with storage x_ts:teleport_stone data
+function x_ts__teleport_stone:x_ts__code/xw/dia01 with storage x_ts:teleport_stone data
 
 ## Remove no more needes data storages
 data remove storage x_ts:teleport_stone data.actions_temp

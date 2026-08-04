@@ -1,5 +1,5 @@
 ### Dialog Admin Page 10 - Edit Name
-### Call in: spfapd.mcfunction
+### Call in: xw/spfapd.mcfunction
 ## $(name) - $(id) - Edit Name
 
 ## Enable trigger in  scoreboard

@@ -1,8 +1,12 @@
 ### Set teleport stone - preparing
-### Called in: diih2.mcfunction
+### Called in: xi/diih2.mcfunction
 
 ## Write first values for teleport stone in storage
 ## Use gametime as id for the teleport stone
+
+# tellraw @a "1"
+
+
 execute store result storage x_ts:teleport_stone data.stone.id int 1 run time query gametime
 execute store result storage x_ts:teleport_stone data.stone.name int 1 run scoreboard players get _counter1 x_teleport_stone.counter
 

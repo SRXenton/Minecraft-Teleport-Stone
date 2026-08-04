@@ -1,5 +1,5 @@
 ### Set Stone and Interaction
-### Call in: pr.mcfunction
+### Call in: xrc/pr.mcfunction
 
 ## Debug (Depricated ?)
 # execute at @e[tag=x_ts.interaction.all] run fill ~-1 ~ ~-1 ~1 ~2 ~1 air

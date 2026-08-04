@@ -1,5 +1,5 @@
 ### Find teleport coordinates
-### Call in: phtt.mcfunction
+### Call in: xt/phtt.mcfunction
 
 ## Copy id from first object in scoreboard
 execute store result score _temp1 x_teleport_stone.target run data get storage x_ts:teleport_stone data.target_temp[0].id 1

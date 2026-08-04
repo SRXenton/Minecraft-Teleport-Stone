@@ -1,5 +1,5 @@
 ### Prepare Dialog repeat 1
-### Called in: pd.mcfunction
+### Called in: xw/pd.mcfunction
 
 ## Add from first object action from action_temp in data.actions and remove object from action_temp
 data modify storage x_ts:teleport_stone data.actions append from storage x_ts:teleport_stone data.actions_temp[0].action

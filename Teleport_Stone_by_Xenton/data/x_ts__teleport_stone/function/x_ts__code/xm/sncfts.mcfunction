@@ -1,5 +1,5 @@
 ### Set New Coordinates For Teleport Stone
-### Called in: fidss.mcfunction
+### Called in: xm/fidss.mcfunction
 
 ## Text output
 #$tellraw @a "$(stone)"

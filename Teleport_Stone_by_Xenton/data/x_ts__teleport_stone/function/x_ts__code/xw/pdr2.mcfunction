@@ -1,5 +1,5 @@
 ## Prepare Dialog repeat 2
-## Called in: pd.mcfunction
+## Called in: xw/pd.mcfunction
 
 ## Write id from storage in scoreboard
 execute store result score @s x_teleport_stone.admin_pages_id run data get storage x_ts:teleport_stone data.actions_temp[0].id

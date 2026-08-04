@@ -1,5 +1,5 @@
 ### Check value
-### Call in: pdr2.mcfunction
+### Call in: xw/pdr2.mcfunction
 
 ## Debug:
 #$tellraw @s "x_ts.interaction.id.$(id)"

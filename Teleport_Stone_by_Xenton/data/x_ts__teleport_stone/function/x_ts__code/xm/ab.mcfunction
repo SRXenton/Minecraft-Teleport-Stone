@@ -1,5 +1,5 @@
 ### Add button to dialog window
-### Called in: pr.mcfunction
+### Called in: xrc/pr.mcfunction
 
 ## Show dialog
 $execute store success score _tt counter.test run data modify storage x_ts:teleport_stone data.teleport_points append value \

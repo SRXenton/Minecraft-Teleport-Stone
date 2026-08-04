@@ -1,5 +1,5 @@
 ### Dialog Admin Page 1
-### Call in: spfapd.mcfunction
+### Call in: xw/spfapd.mcfunction
 #$(name) - $(id)
 ## Enable trigger in scoreboard
 scoreboard players enable @s x_teleport_stone.admin_pages

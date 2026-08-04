@@ -1,5 +1,5 @@
 ### Teleport Player
-### Call in: tpp.mcfunction
+### Call in: xt/tpp.mcfunction
 
 ## Remove teleport ids from scoreboard
 scoreboard players set @s x_teleport_stone.target 0

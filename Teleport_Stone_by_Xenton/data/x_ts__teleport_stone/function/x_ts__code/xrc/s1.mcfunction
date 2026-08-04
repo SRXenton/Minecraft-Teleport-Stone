@@ -1,5 +1,5 @@
 ### Start 1 - For raycast
-### Call in: sts.mcfunction
+### Call in: xm/sts.mcfunction
 
 ## Open temp scoreboard and set _counter on 0
 scoreboard objectives add x_teleport_stone.set_tp_stone dummy

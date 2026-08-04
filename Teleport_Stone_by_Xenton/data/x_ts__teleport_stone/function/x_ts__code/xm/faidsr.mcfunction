@@ -1,5 +1,5 @@
 ### Find action in data storage repeat
-### Call in faidss.mcfunction
+### Call in xm/faidss.mcfunction
 
 ## Write id from storage in scoreboard
 execute store result score @s x_teleport_stone.temp_faids run data get storage x_ts:teleport_stone data.temp.values[0].id 1
@@ -12,4 +12,4 @@ execute if score @s x_teleport_stone.admin_pages_id = @s x_teleport_stone.temp_f
 data remove storage x_ts:teleport_stone data.temp.values[0]
 
 ## Call this function
-function x_ts__teleport_stone:x_ts__code/misc/faidsr
+function x_ts__teleport_stone:x_ts__code/xm/faidsr

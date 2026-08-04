@@ -1,5 +1,5 @@
 ### Admin mode, in Dialog teleport stone
-### Called in: pd.mcfunction
+### Called in: xw/pd.mcfunction
 
 ## Copy data
 data modify storage x_ts:teleport_stone data.actions_temp set from storage x_ts:teleport_stone data.teleport_points

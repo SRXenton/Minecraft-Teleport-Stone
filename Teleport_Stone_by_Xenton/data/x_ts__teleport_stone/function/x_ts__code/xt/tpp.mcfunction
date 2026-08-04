@@ -1,5 +1,5 @@
 ### Teleport Player preparing
-### Call in: ftc.mcfunction
+### Call in: xt/ftc.mcfunction
 
 ## Prepare for teleport the coordinates from array
 data modify storage x_ts:teleport_stone data.tpc.x set from storage x_ts:teleport_stone data.target_temp[0].teleport_coords.x

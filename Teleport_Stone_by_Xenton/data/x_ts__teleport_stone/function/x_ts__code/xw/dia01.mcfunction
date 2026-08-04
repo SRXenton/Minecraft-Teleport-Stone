@@ -1,5 +1,5 @@
 ### Teleport stones - dialogwindow
-### Called in: pd.mcfunction
+### Called in: xw/pd.mcfunction
 
 ## Enable trigger in scoreboard
 scoreboard players enable @s x_teleport_stone.target

@@ -1,5 +1,5 @@
 #### Detect item in hand, for new teleport stone
-#### Called in: diih.mcfunction
+#### Called in: xi/diih.mcfunction
 
 ### Place Teleport Stone
 
@@ -14,6 +14,7 @@ execute as @s[nbt=!{SelectedItem:{id:"minecraft:stick",components:{"minecraft:cu
 
 
 ## Right click detection
+# tellraw @a "1"
 execute as @e[type=minecraft:interaction, tag=x_ts.interaction.rcd.set_stone] on target at @s run function x_ts__teleport_stone:x_ts__code/xm/sts
 
 execute as @e[type=minecraft:interaction, tag=x_ts.interaction.rcd.set_stone] run data remove entity @s attack
@@ -31,6 +32,7 @@ execute as @s[nbt=!{SelectedItem:{id:"minecraft:stick",components:{"minecraft:cu
         positioned ~ ~1.3 ~ \
             run kill @e[type=minecraft:interaction,distance=..2,tag=x_ts.interaction.rcd.set_teleport_point]
 
+# tellraw @a "2"
 
 ## Right click detection
 execute as @e[type=minecraft:interaction, tag=x_ts.interaction.rcd.set_teleport_point] on target at @s \

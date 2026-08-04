@@ -1,5 +1,5 @@
 ### To far away
-### Call in: nx.mcfunction
+### Call in: xrc/nx.mcfunction
 
 ## Chat output
 tellraw @s "Zu Weit Weg !!"

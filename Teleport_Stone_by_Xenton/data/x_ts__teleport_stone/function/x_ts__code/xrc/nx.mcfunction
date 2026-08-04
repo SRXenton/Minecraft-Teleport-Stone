@@ -1,5 +1,5 @@
 ### Next step - In raycast
-### Call in: s1. mcfunction
+### Call in: xrc/s1. mcfunction
 
 ## Add 1 to count and check is _counter 60 or greater
 scoreboard players add _counter x_teleport_stone.set_tp_stone 1
