@@ -19,4 +19,4 @@
 
 - Todos:
 - - Create a new Testworld (DEV - Test) parallel to Dev, for more test options
-- - New: loot_tabel for Admin Items
+- - New: loot_table for Admin Items
