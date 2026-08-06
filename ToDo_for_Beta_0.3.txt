@@ -16,7 +16,9 @@
 - - Bug: Many Function seam like run, but in tests, the quote is not 100% outcome
 - - Dead/double code
 - - Bug: All Admin-items for and on new Teleport stones doesn't work correctly
+- - Adminpage: Sometimes death run at find the right object, when seached id from object is not in object list, it is possible on server: stuck for seconds
 
-- Todos:
+- Todos / Done:
 - - Create a new Testworld (DEV - Test) parallel to Dev, for more test options
 - - New: loot_table for Admin Items
+- -
