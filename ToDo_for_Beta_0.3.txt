@@ -21,4 +21,4 @@
 - Todos / Done:
 - - Create a new Testworld (DEV - Test) parallel to Dev, for more test options
 - - New: loot_table for Admin Items
-- -
+- - Search ID: Check in loob is next Object exist
