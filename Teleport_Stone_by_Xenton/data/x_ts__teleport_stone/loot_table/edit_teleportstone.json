@@ -1,0 +1,51 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "tag": "x_ts__teleportstone.item.edit"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "item_model": "minecraft:writable_book"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Edit Teleportstone",
+                                "color": "#ffffff"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Make right click on the Teleportstone to come in the Adminview",
+                                    "color": "#f6ff00"
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "attribute_modifiers": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
