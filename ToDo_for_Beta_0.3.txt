@@ -1,7 +1,22 @@
 - Test in:
-- - DEV         open
-- - 1.21.11     open
-- - 26.1        open
-- - 26.1.1      open
-- - 26.1.2      open
-- - 26.2        open
+- - DEV         Done - run
+- - DEV - Test  in progress
+- - 1.21.11     Done - NOT run
+- - 26.1        Done - NOT run
+- - 26.1.1      Done - NOT run
+- - 26.1.2      Done - NOT run
+- - 26.2        Done - NOT run
+
+
+
+- After refactoring:
+- - Many Bugs come up, code without functions, etc.
+- - Bug: no running, when new installation
+- - Bug: Admin Items not testable
+- - Bug: Many Function seam like run, but in tests, the quote is not 100% outcome
+- - Dead/double code
+- - Bug: All Admin-items for and on new Teleport stones doesn't work correctly
+
+- Todos:
+- - Create a new Testworld (DEV - Test) parallel to Dev, for more test options
+- - New: loot_tabel for Admin Items
