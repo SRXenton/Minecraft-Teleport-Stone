@@ -13,3 +13,5 @@ function x_ts__teleport_stone:x_ts__code/xm/faidsr
 ## Close temporary scoreboard and remove temporary storage entries
 scoreboard objectives remove x_teleport_stone.temp_faids
 data remove storage x_ts:teleport_stone data.temp.values
+
+return 1
