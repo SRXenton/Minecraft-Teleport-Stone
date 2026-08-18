@@ -15,3 +15,5 @@ $dialog show @s {\
     pause:false,\
     actions:$(actions)\
 }
+
+return 1

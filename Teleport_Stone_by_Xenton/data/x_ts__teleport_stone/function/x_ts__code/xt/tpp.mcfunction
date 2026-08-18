@@ -11,3 +11,5 @@ function x_ts__teleport_stone:x_ts__code/xt/tp with storage x_ts:teleport_stone 
 
 ## Remove values from storage
 data remove storage x_ts:teleport_stone data.tpc
+
+return 1

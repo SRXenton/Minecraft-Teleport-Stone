@@ -9,3 +9,5 @@ function x_ts__teleport_stone:x_ts__code/xt/ftc
 
 ## Remove temp values from storage
 data remove storage x_ts:teleport_stone data.target_temp
+
+return 1

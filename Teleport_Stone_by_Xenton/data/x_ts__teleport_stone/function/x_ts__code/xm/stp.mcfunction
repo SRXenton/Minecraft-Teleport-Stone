@@ -33,3 +33,5 @@ scoreboard players set _counter x_teleport_stone.set_tp_stone -1
 ## Remove temp
 data remove storage x_ts:teleport_stone data.temp
 data remove storage x_ts:teleport_stone data.stone
+
+return 2

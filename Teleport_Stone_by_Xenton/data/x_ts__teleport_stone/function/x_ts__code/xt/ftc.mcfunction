@@ -13,3 +13,7 @@ data remove storage x_ts:teleport_stone data.target_temp[0]
 
 ## Call this function, when it exist a first object in array
 execute if data storage x_ts:teleport_stone data.target_temp[0] run function x_ts__teleport_stone:x_ts__code/xt/ftc
+
+
+return 1
+

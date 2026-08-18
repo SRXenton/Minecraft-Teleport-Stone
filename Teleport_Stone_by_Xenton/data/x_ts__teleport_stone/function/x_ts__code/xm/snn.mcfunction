@@ -14,3 +14,5 @@ data modify storage x_ts:teleport_stone data.teleport_points set from storage x_
 ## Remove Temp
 data remove storage x_ts:teleport_stone data.temp_set_name
 data remove storage x_ts:teleport_stone data.temp_new_list
+
+return 1

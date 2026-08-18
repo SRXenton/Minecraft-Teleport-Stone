@@ -3,7 +3,7 @@
 
 ### Place Teleport Stone
 
-## Summon / kill interaction for detection right click for the stick for edit
+## Summon / kill interaction for detection right click for the stick for place stone
 execute as @s[nbt={SelectedItem:{id:"minecraft:stick",components:{"minecraft:custom_data":{tag:"x_ts__teleportstone.item.place"}}}}] \
     run function x_ts__teleport_stone:x_ts__code/xi/siohas
 
@@ -13,7 +13,7 @@ execute as @s[nbt=!{SelectedItem:{id:"minecraft:stick",components:{"minecraft:cu
             run kill @e[type=minecraft:interaction,distance=..2,tag=x_ts.interaction.rcd.set_stone]
 
 
-## Right click detection
+## Right click detection for place stone
 # tellraw @a "1"
 execute as @e[type=minecraft:interaction, tag=x_ts.interaction.rcd.set_stone] on target at @s run function x_ts__teleport_stone:x_ts__code/xm/sts
 

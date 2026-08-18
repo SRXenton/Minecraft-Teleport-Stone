@@ -2,7 +2,7 @@
 ### Called in: xm/dirc.mcfunction
 
 ## Prepare datastorage
-data merge storage x_ts:teleport_stone {data:{actions:[]}}
+data modify storage x_ts:teleport_stone data.actions set value []
 
 
 ## Prepare scoreboard
@@ -27,3 +27,5 @@ function x_ts__teleport_stone:x_ts__code/xw/dia01 with storage x_ts:teleport_sto
 ## Remove no more needes data storages
 data remove storage x_ts:teleport_stone data.actions_temp
 data remove storage x_ts:teleport_stone data.actions
+
+return 2

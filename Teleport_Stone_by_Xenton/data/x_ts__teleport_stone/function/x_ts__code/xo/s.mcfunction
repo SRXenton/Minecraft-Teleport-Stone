@@ -15,3 +15,6 @@ setblock ~ ~2 ~ minecraft:waxed_weathered_copper_bulb[powered=false,lit=true]
 
 ## Summon Interaction
 $execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:interaction ~ ~ ~ {width:1.2f,height:3.1f,Tags:["x_ts.interaction.all","x_ts.interaction.id.$(id)"]}
+
+
+return 1

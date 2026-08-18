@@ -1,5 +1,5 @@
 ### Find in DataSet Start
-### Called in: xm/sncfts.mcfunction
+### Called in: xm/stp.mcfunction
 
 ## Make temp scoreboard
 scoreboard objectives add x_teleport_stone.temp dummy
@@ -17,3 +17,5 @@ data modify storage x_ts:teleport_stone data.temp.nds append from storage x_ts:t
 ## Recursion
 data remove storage x_ts:teleport_stone data.temp.ds[0]
 execute if data storage x_ts:teleport_stone data.temp.ds[0] run function x_ts__teleport_stone:x_ts__code/xm/fidss
+
+return 1

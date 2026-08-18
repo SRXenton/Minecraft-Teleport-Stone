@@ -18,3 +18,6 @@ data modify storage x_ts:teleport_stone data.teleport_points set from storage x_
 ## Remove temporary scoreboard and storage
 data remove storage x_ts:teleport_stone data.temp.rfstp
 scoreboard objectives remove x_teleport_stone.temp_rfstp
+
+
+return 1

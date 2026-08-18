@@ -12,3 +12,5 @@ data modify storage x_ts:teleport_stone data.temp_new_list append from storage x
 ## Remove first, when an other is exist, then call this function
 data remove storage x_ts:teleport_stone data.temp_set_name[0]
 $execute if data storage x_ts:teleport_stone data.temp_set_name[0] run function x_ts__teleport_stone:x_ts__code/xm/snnr {id:$(id), name:"$(name)"}
+
+return 1

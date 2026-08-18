@@ -1,11 +1,11 @@
 - Test in:
 - - DEV         Done - run
 - - DEV - Test  in progress
-- - 1.21.11     Done - NOT run
-- - 26.1        Done - NOT run
-- - 26.1.1      Done - NOT run
-- - 26.1.2      Done - NOT run
-- - 26.2        Done - NOT run
+- - 1.21.11     Done - run
+- - 26.1        Done - run
+- - 26.1.1      Done - run
+- - 26.1.2      Done - run
+- - 26.2        Done - run
 
 
 

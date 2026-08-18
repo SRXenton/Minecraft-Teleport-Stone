@@ -13,3 +13,5 @@ execute if data storage x_ts:teleport_stone data.temp.rfstp.values[0] run functi
 
 ## Set scoreboard, when all it is done
 scoreboard players set _temp1 x_teleport_stone.temp_rfstp 1
+
+return 1

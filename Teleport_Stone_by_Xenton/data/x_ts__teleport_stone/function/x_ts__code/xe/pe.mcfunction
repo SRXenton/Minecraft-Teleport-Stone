@@ -10,3 +10,6 @@ execute unless score @s x_teleport_stone.admin matches 1 run return -1
 
 ## Set scoreboard to call first admin page
 scoreboard players set @s x_teleport_stone.admin_pages 1
+
+
+return 1

@@ -33,3 +33,6 @@ execute if score @s x_teleport_stone.admin_pages matches 1.. run scoreboard play
 
 ## Remove storage temp
 data remove storage x_ts:teleport_stone data.temp
+
+
+return 1

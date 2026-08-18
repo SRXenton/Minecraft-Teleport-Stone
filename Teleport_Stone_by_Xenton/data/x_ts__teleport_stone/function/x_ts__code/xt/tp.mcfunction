@@ -10,3 +10,5 @@ tellraw @a [{text:"You are teleported to ", color:"green"}, {storage:"x_ts:telep
 
 ## Teleport
 $teleport @s $(x) $(y) $(z)
+
+return 1

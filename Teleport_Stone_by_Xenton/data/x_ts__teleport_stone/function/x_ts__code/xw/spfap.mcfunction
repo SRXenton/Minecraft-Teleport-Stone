@@ -6,3 +6,5 @@ execute as @a[scores={x_teleport_stone.admin_pages=1..}] unless score @s x_telep
 
 ## Call: Switch prepare for admin pages, deep
 execute as @a[scores={x_teleport_stone.admin_pages=1..}] run function x_ts__teleport_stone:x_ts__code/xw/spfapd
+
+return 1
