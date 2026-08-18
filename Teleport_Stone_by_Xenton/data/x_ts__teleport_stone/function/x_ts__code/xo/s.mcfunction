@@ -1,0 +1,20 @@
+### Set Stone and Interaction
+### Call in: xrc/pr.mcfunction
+
+## Debug (Depricated ?)
+# execute at @e[tag=x_ts.interaction.all] run fill ~-1 ~ ~-1 ~1 ~2 ~1 air
+# kill @e[tag=x_ts.interaction.all]
+
+## Remove all block on this postion
+fill ~-1 ~ ~-1 ~1 ~4 ~1 air
+
+## Set Teleport-Stone
+setblock ~ ~ ~ minecraft:lodestone
+setblock ~ ~1 ~ stone_brick_wall
+setblock ~ ~2 ~ minecraft:waxed_weathered_copper_bulb[powered=false,lit=true]
+
+## Summon Interaction
+$execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:interaction ~ ~ ~ {width:1.2f,height:3.1f,Tags:["x_ts.interaction.all","x_ts.interaction.id.$(id)"]}
+
+
+return 1

@@ -51,6 +51,12 @@ Until Alpha 0.3:<br>
 
 
 # Changelog:
+Beta 0.3<br>
+- Refactoring: Folder structure and files
+- Change:
+- - "give item" to "loot loot_table"
+- Remove Bugs detecting after refactoring
+
 Beta 0.2<br>
 - Change
 - - Dialog Text in:

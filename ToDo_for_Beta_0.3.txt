@@ -1,0 +1,24 @@
+- Test in:
+- - DEV         Done - run
+- - DEV - Test  in progress
+- - 1.21.11     Done - run
+- - 26.1        Done - run
+- - 26.1.1      Done - run
+- - 26.1.2      Done - run
+- - 26.2        Done - run
+
+
+
+- After refactoring:
+- - Many Bugs come up, code without functions, etc.
+- - Bug: no running, when new installation
+- - Bug: Admin Items not testable
+- - Bug: Many Function seam like run, but in tests, the quote is not 100% outcome
+- - Dead/double code
+- - Bug: All Admin-items for and on new Teleport stones doesn't work correctly
+- - Adminpage: Sometimes death run at find the right object, when seached id from object is not in object list, it is possible on server: stuck for seconds
+
+- Todos / Done:
+- - Create a new Testworld (DEV - Test) parallel to Dev, for more test options
+- - New: loot_table for Admin Items
+- - Search ID: Check in loob is next Object exist
