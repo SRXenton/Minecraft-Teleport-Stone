@@ -31,7 +31,15 @@
                             "function": "minecraft:set_lore",
                             "lore": [
                                 {
-                                    "text": "Make right click on ground to set the Teleport-Stone",
+                                    "text": "With this item in your weapon mainhand,",
+                                    "color": "#f6ff00"
+                                },
+                                {
+                                    "text": "look on the ground and with a right click",
+                                    "color": "#f6ff00"
+                                },
+                                {
+                                    "text": "you set the Teleport-Stone",
                                     "color": "#f6ff00"
                                 }
                             ],

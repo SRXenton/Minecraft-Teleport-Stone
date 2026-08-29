@@ -35,11 +35,15 @@
                                     "color": "#f6ff00"
                                 },
                                 {
-                                    "text": "Make right click, and the Teleportpoint",
+                                    "text": "and with this item in your weapon mainhand,",
                                     "color": "#f6ff00"
                                 },
                                 {
-                                    "text": "will change on your position",
+                                    "text": "make right click, and the Teleport spawn point",
+                                    "color": "#f6ff00"
+                                },
+                                {
+                                    "text": "will be change on your position",
                                     "color": "#f6ff00"
                                 }
                             ],
