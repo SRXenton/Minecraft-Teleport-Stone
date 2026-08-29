@@ -31,7 +31,15 @@
                             "function": "minecraft:set_lore",
                             "lore": [
                                 {
-                                    "text": "Make right click on the Teleportstone to come in the Adminview",
+                                    "text": "With this item in your weapon mainhand,",
+                                    "color": "#f6ff00"
+                                },
+                                {
+                                    "text": "right click on the Teleportstone",
+                                    "color": "#f6ff00"
+                                },
+                                {
+                                    "text": "to come in the Adminview from Teleport Stone",
                                     "color": "#f6ff00"
                                 }
                             ],

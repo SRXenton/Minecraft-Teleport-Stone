@@ -2,26 +2,33 @@
 Datapack for Minecraft Java.<br>
 - V 1.21.11
 - V 26.1.x
+- V 26.2.x
 
 Place with an item a teleport stone in the world.<br>
 With a right click, you can teleport between the stones.<br>
-No knowlage needed over commands. All needed commands in this description
+No knowlage needed over commands. All needed commands are in this description
 
 
-# !!! Attantion !!!
+# This Datapack is available on:
+- Github
+- Curseforge
+- Modrinth (Coming Soon)
 
-! This datapack is in alpha status<br>
+# Installation (update):
+- Remove the old version from datapack folder
 
+# Installation (New):
+- Download it from your favorit portal
+- - Note to Github, it is possible yo have to extract the datapack in your Datapack folder
 
-# Installation:
 - Put this datapack in your savegame, in the folder datapacks
-- - Example: .minecraft - saves - YourWorld - datapacks - Teleport_Stone_by_Xenton...
+- - Example: .minecraft - saves - YourWorld - datapacks - Teleport_Stone_by_Xenton_V26_x_x(.zip)
 
-- After reload with command "/reload" your world, you can check is the datapack available with the command "/datapack list".<br>
+- After start your world, you can check is the datapack available with the command "/datapack list".<br>
     From Github as folder:<br>
-        When you find in green brackets: [file/Teleport_Stone_by_xenton (world)], than the datapack is correct installed<br>
-    (Coming Soon) From Curseforge as ZIP: <br>
-         When you find in green brackets: [file/Teleport_Stone_x-x-x.zip (world)], than the datapack is correct installed.<br>
+        When you find in green brackets: [file/Teleport_Stone_by_Xenton (world)], than the datapack is correct installed<br>
+    From Curseforge/Modrinth as ZIP: <br>
+         When you find in green brackets: [file/Teleport_Stone_by_Xenton_V26_x_x.zip (world)], than the datapack is correct installed.<br>
 - You don't need to do anything to initalise this datapack, it will be run automaticly after correct install.<br>
 
 
@@ -42,7 +49,6 @@ Since Alpha 0.4<br>
 Until Alpha 0.3:<br>
 - To set a Teleportstone:
 - - /function x_ts__teleport_stone:set_teleport_stone
-
 - For Debugging:
 - - Remove all Teleport Stones in render distance and reset all scoreboards and data storages.
 - - /function x_ts__teleport_stone:debug_commands/reset_button
@@ -51,6 +57,10 @@ Until Alpha 0.3:<br>
 
 
 # Changelog:
+Release V26.1.0: Release year 2026, Version 1.0 - V26.1.0
+- Update Admin Items
+
+
 Beta 0.3<br>
 - Refactoring: Folder structure and files
 - Change:
