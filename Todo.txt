@@ -88,7 +88,7 @@ done    0016    Minecraft 26.3, loot_table doesn't work like MC 26.2
             - loot_table:   functions is in MC 26.3 to modifier
                             function in modifier, now type
 
-open    0017   V26.2.0 - Testing for MC 26.3, after changes for MC 26.3 ->
+done    0017   V26.1.1 - Testing for MC 26.3, after changes for MC 26.3 ->
             - Run Test in Dev
             - Run Test in MC 26.3 without Mods
             - Run Test in MC 26.3 with Fabric Laucher
