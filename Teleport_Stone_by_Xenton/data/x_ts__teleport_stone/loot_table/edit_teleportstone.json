@@ -7,28 +7,28 @@
                     "type": "minecraft:item",
                     "name": "minecraft:stick",
                     "weight": 1,
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_custom_data",
+                            "type": "minecraft:set_custom_data",
                             "tag": {
                                 "tag": "x_ts__teleportstone.item.edit"
                             }
                         },
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "item_model": "minecraft:writable_book"
                             }
                         },
                         {
-                            "function": "minecraft:set_name",
+                            "type": "minecraft:set_name",
                             "name": {
                                 "text": "Edit Teleportstone",
                                 "color": "#ffffff"
                             }
                         },
                         {
-                            "function": "minecraft:set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "text": "With this item in your weapon mainhand,",
@@ -46,7 +46,7 @@
                             "mode": "replace_all"
                         },
                         {
-                            "function": "toggle_tooltips",
+                            "type": "toggle_tooltips",
                             "toggles": {
                                 "attribute_modifiers": false
                             }
