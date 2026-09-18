@@ -1,8 +1,13 @@
 # Minecraft-Teleport-Stone
 Datapack for Minecraft Java.<br>
+
+Since V26.1.1 for Minecraft Versions:
+- V 26.3
+
+Until V26.1.0 for Minecraft Versions:
 - V 1.21.11
 - V 26.1.x
-- V 26.2.x
+- V 26.2
 
 Place with an item a teleport stone in the world.<br>
 With a right click, you can teleport between the stones.<br>
@@ -37,7 +42,7 @@ Since Alpha 0.4<br>
 - To get Config/Admin items
 - - /function x_ts__teleport_stone:give_items
 - - - With Item: "Place Teleportstone", you can with a right click on a block, place the teleport stone over the highest block
-- - - - When the block is to far away, you get the message in chat "Zu weit weg", and no teleport stone will be set
+- - - - When the block is to far away, you get the message in chat "To far away", and no teleport stone will be set
 - - - With Item: "Edit Teleportstone", you can with a right click on a teleport stone, the open the admin dialog
 - - - - Button: Set name, here you can change the name from the stone
 - - - - Button: Delete - Delete this teleport stone, and remove it from the teleporatation list
@@ -57,6 +62,9 @@ Until Alpha 0.3:<br>
 
 
 # Changelog:
+V26.1.1 
+- Update loot_table after Minecraft update up to 26.3
+
 Release V26.1.0: Release year 2026, Version 1.0 - V26.1.0
 - Update Admin Items
 
