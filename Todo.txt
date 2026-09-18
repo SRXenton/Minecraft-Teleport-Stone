@@ -84,3 +84,6 @@ done    0014    Textoutput place new target point
 
 open    0015    Change Target point is direct after teleport not possible
 
+done    0016    Minecraft 26.3, loot_table doesn't work like MC 26.2
+            - loot_table:   functions is in MC 26.3 to modifier
+                            function in modifier, now type
